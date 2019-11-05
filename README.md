@@ -16,7 +16,7 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 
 * `CH44 3199 9123 0008 8901 2` &rarr; fictitious QR-IID.
 * `CH78 3000 0000 1001 5000 6` &rarr; PostFinance QR-IID, fictitious account number.
-* `CH05 3000 5230 5042 2318 T` &rarr; Credit Suisse, fictitious account number, taken from [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf)
+* `CH05 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number, taken from [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf)
 
 ### QR-IIDs
 
