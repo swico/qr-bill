@@ -1,4 +1,4 @@
-# qr-bill
+# QR-Bill
 
 Supporting material for the introduction of the [QR bill](https://www.swiss-qr-invoice.org) in Switzerland.
 
@@ -7,6 +7,17 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | ERP         | Version | Sample file  | Format | Date added |
 |-------------|---------|:-------------|:------:|------------|
 | Messerli    | x       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf) | PDF | 2019-11-05 |
+
+## QR-Bill Validator
+
+Swico provides a [dedicated QR-code validator](https://www.swiss-qr-invoice.org/validator),
+which can be used to validate not only the plain payload of the QR-code, but also the
+syntax of the additional structured payment information (also known as **Swico-String**).
+
+It accepts either plain text files which represent the payload of the QR-code, or image
+files (PNG format) which contain the QR-code to analyse.
+
+[![Swico QR Validator](web/figure-qr-validator-1.png)](https://www.swiss-qr-invoice.org/validator)
 
 ## Sample values
 
