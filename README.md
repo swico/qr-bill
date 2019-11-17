@@ -5,8 +5,8 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 ## Sample invoices
 
 | ERP         | Version | Sample file                                                                         | Format | Date added |
-| ----------- | ------- | :---------------------------------------------------------------------------------- | :----: | ---------- |
-| Messerli    | x       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf) |  PDF   | 2019-11-05 |
+| ----------- |:-------:| :---------------------------------------------------------------------------------- | :----: | ---------- |
+| Messerli    | ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf) |  PDF   | 2019-11-05 |
 | _synthetic_ |         | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)         |  PNG   | 2019-11-07 |
 
 ## QR-Bill Validator
