@@ -8,6 +8,7 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | ----------- |:-------:| :---------------------------------------------------------------------------------- | :----: | ---------- |
 | Messerli    | ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf) |  PDF   | 2019-11-05 |
 | _synthetic_ |         | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)         |  PNG   | 2019-11-07 |
+| Run my Accounts | ?  | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf) | PDF | 2019-12-05 |
 
 ## QR-Bill Validator
 
