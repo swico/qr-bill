@@ -19,7 +19,8 @@ which can be used to validate not only the plain payload of the QR-code, but als
 syntax of the additional structured payment information (also known as **Swico-String**).
 
 It accepts either plain text files which represent the payload of the QR-code, or image
-files (PNG format) which contain the QR-code to analyse.
+files (PNG format) which contain the QR-code to analyse. You can also upload a PDF and
+it will try to identify and extract the first valid QR-code.
 
 [![Swico QR Validator](web/figure-qr-validator-1.png)](https://www.swiss-qr-invoice.org/validator)
 
@@ -39,7 +40,8 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 
 ### QR-IIDs
 
-- See [Test-Bankenstamm mit QR-IIDs](https://www.paymentstandards.ch/de/shared/communication-grid/bankenstamm.html), German page, or [Fichier des banques de test avec QR-IID](https://www.paymentstandards.ch/fr/shared/communication-grid/bankenstamm.html), French page.
+- German: [Test-Bankenstamm mit QR-IIDs](https://www.paymentstandards.ch/de/shared/communication-grid/bankenstamm.html).
+- French: [Fichier des banques de test avec QR-IID](https://www.paymentstandards.ch/fr/shared/communication-grid/bankenstamm.html).
 
 ### QR-Reference (QRR)
 
