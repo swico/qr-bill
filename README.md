@@ -8,7 +8,9 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | ----------- |:-------:| :---------------------------------------------------------------------------------- | :----: | ---------- |
 | Messerli    | ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf) |  PDF   | 2019-11-05 |
 | _synthetic_ |         | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)         |  PNG   | 2019-11-07 |
-| Run my Accounts | ?  | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf) | PDF | 2019-12-05 |
+| Run my Accounts | 2.8.52  | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf) | PDF | 2019-12-05 |
+| Crésus | 13.0-preview | [sample-0004-cresus.pdf](invoices/sample-0004-cresus.pdf) | PDF | 2019-12-12 |
+| Crésus | 13.0-preview | [sample-0005-cresus.pdf](invoices/sample-0005-cresus.pdf)<br/>contains multiple VAT rates | PDF | 2019-12-12 |
 
 ## QR-Bill Validator
 
@@ -29,8 +31,11 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 
 - `CH44 3199 9123 0008 8901 2` &rarr; fictitious QR-IID.
 - `CH78 3000 0000 1001 5000 6` &rarr; PostFinance QR-IID, fictitious account number.
-- `CH05 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number, taken from [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf) with invalid checksum.
+- `CH05 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number  with invalid checksum.  
+  Source: [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf).
 - `CH06 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number (same as above, with correct checksum).
+- `CH51 3000 0001 2500 9034 2` &rarr; PostFinance, fictious account number 250090342.  
+  Source: [Neues von PostFinance Nr. 2 November 2019](https://www.postfinance.ch/content/dam/pfch/doc/cust/software/magbiz_shh_1911_de.pdf).
 
 ### QR-IIDs
 
