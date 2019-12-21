@@ -37,6 +37,14 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 - `CH06 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number (same as above, with correct checksum).
 - `CH51 3000 0001 2500 9034 2` &rarr; PostFinance, fictious account number 250090342.  
   Source: [Neues von PostFinance Nr. 2 November 2019](https://www.postfinance.ch/content/dam/pfch/doc/cust/software/magbiz_shh_1911_de.pdf).
+- `CH80 0078 8000 0506 6413 3` &rarr; BCGE, sample 1, fictious IBAN for Jean-Jacques Genevois.
+- `CH05 3078 8000 0506 6413 3` &rarr; BCGE, sample 1, matching QR-IBAN for Jean-Jacques Genevois.
+- `CH53 0078 8000 0506 6413 4` &rarr; BCGE, sample 2, fictious IBAN for Jean-Jacques Genevois.
+- `CH75 3078 8000 0506 6413 4` &rarr; BCGE, sample 2, QR-IBAN for Jean-Jacques Genevois.
+- `CH58 0078 8000 Z321 8002 5` &rarr; BCGE, sample 3, fictious IBAN for Jean-Jacques Genevois.
+- `CH84 3078 8000 Z321 8002 5` &rarr; BCGE, sample 3, QR-IBAN for Jean-Jacques Genevois.
+- `CH79 0078 8000 C330 1425 5` &rarr; BCGE, sample 4, fictious IBAN for Jean-Jacques Genevois.
+- `CH08 3078 8000 C330 1425 5` &rarr; BCGE, sample 4, QR-IBAN for Jean-Jacques Genevois.
 
 ### QR-IIDs
 
