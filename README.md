@@ -13,6 +13,7 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | Crésus | 13.0-preview | [sample-0005-cresus.pdf](invoices/sample-0005-cresus.pdf)<br/>contains multiple VAT rates | PDF | 2019-12-12 |
 | BCGE _sample_ | n/a | [sample-0006-bcge-vierge.jpg](invoices/sample-0006-bcge-vierge.jpg)<br/>QR-bill, QRR, no amount, no payer | JPEG | 2020-01-08 |
 | BCGE _sample_ | n/a | [sample-0007-bcge-complete.jpg](invoices/sample-0007-bcge-complete.jpg)<br/>QR-bill, plain IBAN, with payer | JPEG | 2020-01-08 |
+| Sage 200 | n/a | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions inclduing<br/>5% discount and 2% discount | PDF | 2020-01-14 |
 
 ## QR-Bill Validator
 
