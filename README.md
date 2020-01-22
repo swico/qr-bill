@@ -59,6 +59,11 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 
 #### PostFinance (QR-IID 30000)
 
+See [04 Virtual accounts (PDF)](https://www.postfinance.ch/content/dam/pfch/doc/cust/download/Factsheet_04_en.pdf)
+found on PostFinance's dedicated [QR bill information site](https://www.postfinance.ch/en/business/products/accounts-receivable-solutions/qr-bills.html).
+
+PostFinance provides [its own test platform](https://testplattform.postfinance.ch/).
+
 - Format `CHxx 3000 0nnn aaaa aaaa a`
 - Up to 999 QR-IBAN for a given account.
 - `nnn` collection prefix, can be chosen by customer (`001`, `002`, etc.).
