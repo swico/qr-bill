@@ -34,12 +34,15 @@ it will try to identify and extract the first valid QR-code.
 Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 
 - `CH44 3199 9123 0008 8901 2` &rarr; fictitious QR-IID.
-- `CH78 3000 0000 1001 5000 6` &rarr; PostFinance QR-IID, fictitious (invalid) account number.
+- `CH78 3000 0000 1001 5000 6` &rarr; PostFinance, fictitious (invalid) account number.
 - `CH05 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number  with invalid checksum.  
   Source: [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf).
 - `CH06 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number (same as above, with correct checksum).
-- `CH51 3000 0001 2500 9034 2` &rarr; PostFinance, fictious account number 25-009034-2.  
+- `CH51 3000 0001 2500 9034 2` &rarr; PostFinance, fictious virtual account number 1 for 25-009034-2.  
   Source: [Neues von PostFinance Nr. 2 November 2019](https://www.postfinance.ch/content/dam/pfch/doc/cust/software/magbiz_shh_1911_de.pdf).
+- `CH30 3000 0001 2500 9072 0` &rarr; PostFinance, fictious virtual account number 1 for 25-9072-0.  
+  `CH82 3000 0002 2500 9072 0` &rarr; PostFinance, fictious virtual account number 2 for 25-9072-0.  
+  Source: [Virtual accounts as replacement for ISR subscriber numbers](https://www.postfinance.ch/content/dam/pfch/doc/cust/download/Factsheet_04_en.pdf)
 - `CH80 0078 8000 0506 6413 3` &rarr; BCGE, sample 1, fictious IBAN for Jean-Jacques Genevois.
 - `CH05 3078 8000 0506 6413 3` &rarr; BCGE, sample 1, matching QR-IBAN for Jean-Jacques Genevois.
 - `CH53 0078 8000 0506 6413 4` &rarr; BCGE, sample 2, fictious IBAN for Jean-Jacques Genevois.
