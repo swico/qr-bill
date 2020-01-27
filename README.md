@@ -4,16 +4,16 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 
 ## Sample invoices
 
-| ERP         | Version | Sample file                                                                         | Format | Date added |
-| ----------- |:-------:| :---------------------------------------------------------------------------------- | :----: | ---------- |
-| Messerli    | ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf) |  PDF   | 2019-11-05 |
-| _synthetic_ |         | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)         |  PNG   | 2019-11-07 |
-| Run my Accounts | 2.8.52  | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf) | PDF | 2019-12-05 |
-| Crésus | 13.0-preview | [sample-0004-cresus.pdf](invoices/sample-0004-cresus.pdf) | PDF | 2019-12-12 |
-| Crésus | 13.0-preview | [sample-0005-cresus.pdf](invoices/sample-0005-cresus.pdf)<br/>contains multiple VAT rates | PDF | 2019-12-12 |
-| BCGE _sample_ | n/a | [sample-0006-bcge-vierge.jpg](invoices/sample-0006-bcge-vierge.jpg)<br/>QR-bill, QRR, no amount, no payer | JPEG | 2020-01-08 |
-| BCGE _sample_ | n/a | [sample-0007-bcge-complete.jpg](invoices/sample-0007-bcge-complete.jpg)<br/>QR-bill, plain IBAN, with payer | JPEG | 2020-01-08 |
-| Sage 200 | n/a | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions including<br/>5% discount and 2% discount | PDF | 2020-01-14 |
+| ERP             |   Version    | Sample file                                                                                                                           | Format | Date added |
+| --------------- | :----------: | :------------------------------------------------------------------------------------------------------------------------------------ | :----: | ---------- |
+| Messerli        |      ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf)                                                   |  PDF   | 2019-11-05 |
+| _synthetic_     |              | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)                                                           |  PNG   | 2019-11-07 |
+| Run my Accounts |    2.8.52    | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf)                                                           |  PDF   | 2019-12-05 |
+| Crésus          | 13.0-preview | [sample-0004-cresus.pdf](invoices/sample-0004-cresus.pdf)                                                                             |  PDF   | 2019-12-12 |
+| Crésus          | 13.0-preview | [sample-0005-cresus.pdf](invoices/sample-0005-cresus.pdf)<br/>contains multiple VAT rates                                             |  PDF   | 2019-12-12 |
+| BCGE _sample_   |     n/a      | [sample-0006-bcge-vierge.jpg](invoices/sample-0006-bcge-vierge.jpg)<br/>QR-bill, QRR, no amount, no payer                             |  JPEG  | 2020-01-08 |
+| BCGE _sample_   |     n/a      | [sample-0007-bcge-complete.jpg](invoices/sample-0007-bcge-complete.jpg)<br/>QR-bill, plain IBAN, with payer                           |  JPEG  | 2020-01-08 |
+| Sage 200        |     n/a      | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions including<br/>5% discount and 2% discount |  PDF   | 2020-01-14 |
 
 ## QR-Bill Validator
 
@@ -35,7 +35,7 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 
 - `CH44 3199 9123 0008 8901 2` &rarr; fictitious QR-IID.
 - `CH78 3000 0000 1001 5000 6` &rarr; PostFinance, fictitious (invalid) account number.
-- `CH05 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number  with invalid checksum.  
+- `CH05 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number with invalid checksum.  
   Source: [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf).
 - `CH06 3000 5230 5042 2318 T` &rarr; UBS, fictitious account number (same as above, with correct checksum).
 - `CH51 3000 0001 2500 9034 2` &rarr; PostFinance, fictious virtual account number 1 for 25-009034-2.  
@@ -51,6 +51,7 @@ Spaces in the _QR-IBAN_ must be removed when stored in the QR-code payload.
 - `CH84 3078 8000 Z321 8002 5` &rarr; BCGE, sample 3, QR-IBAN for Jean-Jacques Genevois.
 - `CH79 0078 8000 C330 1425 5` &rarr; BCGE, sample 4, fictious IBAN for Jean-Jacques Genevois.
 - `CH08 3078 8000 C330 1425 5` &rarr; BCGE, sample 4, QR-IBAN for Jean-Jacques Genevois.
+- `CH50 3100 0012 3456 7800 9` &rarr; CS, fictious QR-IBAN for `CH56 0483 5012 3456 7800 9`.
 
 ### How are QR-IBANs built?
 
@@ -71,6 +72,11 @@ PostFinance provides [its own test platform](https://testplattform.postfinance.c
 - Up to 999 QR-IBAN for a given account.
 - `nnn` collection prefix, can be chosen by customer (`001`, `002`, etc.).
 - `aaaa aaaa a` has to match customer account number `aa-aaaaaa-a`.
+
+#### Credit Suisse (QR-IID 31000)
+
+- Format `CHxx 3100 00aa aaaa aaaa a`.
+- One-to-one correspondance between QR-IBAN and IBAN.
 
 ### QR-IIDs
 
