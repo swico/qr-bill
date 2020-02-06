@@ -4,16 +4,18 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 
 ## Sample invoices
 
-| ERP             |   Version    | Sample file                                                                                                                           | Format | Date added |
-| --------------- | :----------: | :------------------------------------------------------------------------------------------------------------------------------------ | :----: | ---------- |
-| Messerli        |      ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf)                                                   |  PDF   | 2019-11-05 |
-| _synthetic_     |              | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)                                                           |  PNG   | 2019-11-07 |
-| Run my Accounts |    2.8.52    | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf)                                                           |  PDF   | 2019-12-05 |
-| Crésus          | 13.0-preview | [sample-0004-cresus.pdf](invoices/sample-0004-cresus.pdf)                                                                             |  PDF   | 2019-12-12 |
-| Crésus          | 13.0-preview | [sample-0005-cresus.pdf](invoices/sample-0005-cresus.pdf)<br/>contains multiple VAT rates                                             |  PDF   | 2019-12-12 |
-| BCGE _sample_   |     n/a      | [sample-0006-bcge-vierge.jpg](invoices/sample-0006-bcge-vierge.jpg)<br/>QR-bill, QRR, no amount, no payer                             |  JPEG  | 2020-01-08 |
-| BCGE _sample_   |     n/a      | [sample-0007-bcge-complete.jpg](invoices/sample-0007-bcge-complete.jpg)<br/>QR-bill, plain IBAN, with payer                           |  JPEG  | 2020-01-08 |
-| Sage 200        |     n/a      | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions including<br/>5% discount and 2% discount |  PDF   | 2020-01-14 |
+| ERP               |   Version    | Sample file                                                                                                                           | Format | Date added |
+| ----------------- | :----------: | :------------------------------------------------------------------------------------------------------------------------------------ | :----: | ---------- |
+| Messerli          |      ?       | [sample-0001-messerli-informatik.pdf](invoices/sample-0001-messerli-informatik.pdf)                                                   |  PDF   | 2019-11-05 |
+| _synthetic_       |              | [sample-0002-swico-synthetic.png](invoices/sample-0002-swico-synthetic.png)                                                           |  PNG   | 2019-11-07 |
+| Run my Accounts   |    2.8.52    | [sample-0003-run-my-accounts.pdf](invoices/sample-0003-run-my-accounts.pdf)                                                           |  PDF   | 2019-12-05 |
+| Crésus            | 13.0-preview | [sample-0004-cresus.pdf](invoices/sample-0004-cresus.pdf)                                                                             |  PDF   | 2019-12-12 |
+| Crésus            | 13.0-preview | [sample-0005-cresus.pdf](invoices/sample-0005-cresus.pdf)<br/>contains multiple VAT rates                                             |  PDF   | 2019-12-12 |
+| BCGE _sample_     |     n/a      | [sample-0006-bcge-vierge.jpg](invoices/sample-0006-bcge-vierge.jpg)<br/>QR-bill, QRR, no amount, no payer                             |  JPEG  | 2020-01-08 |
+| BCGE _sample_     |     n/a      | [sample-0007-bcge-complete.jpg](invoices/sample-0007-bcge-complete.jpg)<br/>QR-bill, plain IBAN, with payer                           |  JPEG  | 2020-01-08 |
+| Sage 200          |     n/a      | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions including<br/>5% discount and 2% discount |  PDF   | 2020-01-14 |
+| Abacus Immobilien |     n/a      | [sample-0009-abacus-immobilien.pdf](invoices/sample-0009-abacus-immobilien.pdf)<br/>contains multiple invoices                        |  PDF   | 2020-02-01 |
+| Proffix           |     n/a      | [sample-0010-proffix.pdf](invoices/sample-0010-proffix.pdf)                                                                           |  PDF   | 2020-02-06 |
 
 ## QR-Bill Validator
 
