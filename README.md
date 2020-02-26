@@ -16,6 +16,7 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | Sage 200          |     n/a      | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions including<br/>5% discount and 2% discount |  PDF   | 2020-01-14 |
 | Abacus Immobilien |     n/a      | [sample-0009-abacus-immobilien.pdf](invoices/sample-0009-abacus-immobilien.pdf)<br/>contains multiple invoices                        |  PDF   | 2020-02-01 |
 | Proffix           |     n/a      | [sample-0010-proffix.pdf](invoices/sample-0010-proffix.pdf)                                                                           |  PDF   | 2020-02-06 |
+| Abraxas JURIS     |     n/a      | [sample-0011-abraxas-juris.pdf](invoices/sample-0011-abraxas-juris.pdf)                                                               |  PDF   | 2020-02-26 |
 
 ## QR-Bill Validator
 
