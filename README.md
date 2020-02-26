@@ -97,3 +97,11 @@ Spaces in the _QR reference_ must be removed when stored in the QR-code payload.
 Spaces in the _structured creditor reference_ must be removed when stored in the QR-code payload.
 
 - `RF48 5000 0567 8901 2345` &rarr; taken from [clearit 79](https://www.six-group.com/interbank-clearing/dam/downloads/de/clearit/79/edition.pdf)
+
+## Resources for developers
+
+* Manuel Bl. published two open source projects on GitHub:
+  [SwissQRBill Java project](https://github.com/manuelbl/SwissQRBill) and
+  [SwissQRBill .NET project](https://github.com/manuelbl/SwissQRBill.NET).  
+  They can be [tested online here](https://www.codecrete.net/qrbill/bill)...
+
