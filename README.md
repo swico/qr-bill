@@ -18,6 +18,9 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | Abraxas JURIS     |     n/a      | [sample-0011-abraxas-juris.pdf](invoices/sample-0011-abraxas-juris.pdf)                                                               |  PDF   | 2020-02-26 |
 | Messerli          |     n/a      | [sample-0012-messerli-informatik.pdf](invoices/sample-0012-messerli-informatik.pdf)<br/>QR-IBAN, QRR, Swico-string, VAT, etc.         |  PDF   | 2020-02-28 |
 | Messerli          |     n/a      | [sample-0013-messerli-informatik.pdf](invoices/sample-0013-messerli-informatik.pdf)<br/>plain IBAN without additional information     |  PDF   | 2020-02-28 |
+| SAP               |     n/a      | [sample-0014-sap-de.pdf](invoices/sample-0014-sap-de.pdf)<br/>invoice in German                                                       |  PDF   | 2020-03-05 |
+| SAP               |     n/a      | [sample-0015-sap-de.pdf](invoices/sample-0015-sap-fr.pdf)<br/>invoice in French                                                       |  PDF   | 2020-03-05 |
+| SAP               |     n/a      | [sample-0016-sap-de.pdf](invoices/sample-0016-sap-en.pdf)<br/>invoice in Italian                                                      |  PDF   | 2020-03-05 |
 
 ## QR-Bill Validator
 
