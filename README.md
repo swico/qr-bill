@@ -14,7 +14,7 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | BCGE _sample_     |     n/a      | [sample-0007-bcge-complete.jpg](invoices/sample-0007-bcge-complete.jpg)<br/>plain IBAN, with payer<br/>IBAN not OK, contains spaces   |  JPEG  | 2020-01-08 |
 | Sage 200          |     n/a      | [sample-0008-sage200.pdf](invoices/sample-0008-sage200.pdf)<br/>multiple payment conditions including<br/>5% discount and 2% discount |  PDF   | 2020-01-14 |
 | Abacus Immobilien |     n/a      | [sample-0009-abacus-immobilien.pdf](invoices/sample-0009-abacus-immobilien.pdf)<br/>contains multiple invoices                        |  PDF   | 2020-02-01 |
-| Proffix           |     n/a      | [sample-0010-proffix.pdf](invoices/sample-0010-proffix.pdf)                                                                           |  PDF   | 2020-02-06 |
+| Proffix           |  4.0.1020    | [sample-0010-proffix.pdf](invoices/sample-0010-proffix.pdf)<br/>updated on 2020-03-26                                                 |  PDF   | 2020-03-26 |
 | Abraxas JURIS     |     n/a      | [sample-0011-abraxas-juris.pdf](invoices/sample-0011-abraxas-juris.pdf)                                                               |  PDF   | 2020-02-26 |
 | Messerli          |     n/a      | [sample-0012-messerli-informatik.pdf](invoices/sample-0012-messerli-informatik.pdf)<br/>QR-IBAN, QRR, Swico-string, VAT, etc.         |  PDF   | 2020-02-28 |
 | Messerli          |     n/a      | [sample-0013-messerli-informatik.pdf](invoices/sample-0013-messerli-informatik.pdf)<br/>plain IBAN without additional information     |  PDF   | 2020-02-28 |
