@@ -21,6 +21,10 @@ Supporting material for the introduction of the [QR bill](https://www.swiss-qr-i
 | SAP               |     n/a      | [sample-0014-sap-de.pdf](invoices/sample-0014-sap-de.pdf)<br/>invoice in German                                                       |  PDF   | 2020-03-05 |
 | SAP               |     n/a      | [sample-0015-sap-de.pdf](invoices/sample-0015-sap-fr.pdf)<br/>invoice in French                                                       |  PDF   | 2020-03-05 |
 | SAP               |     n/a      | [sample-0016-sap-de.pdf](invoices/sample-0016-sap-en.pdf)<br/>invoice in Italian                                                      |  PDF   | 2020-03-05 |
+| QR Invoice Java   |     1.8      | [sample-0017-codeblock-qrinvoice-java.pdf](invoices/sample-0017-codeblock-qrinvoice-java.pdf)                                         |  PDF   | 2020-06-04 |
+| QR Invoice Java   |     1.8      | [sample-0018-codeblock-qrinvoice-java.png](invoices/sample-0018-codeblock-qrinvoice-java.png)                                         |  PNG   | 2020-06-04 |
+| QR Invoice Native |     2.1      | [sample-0019-codeblock-qrinvoice-native.pdf](invoices/sample-0019-codeblock-qrinvoice-native.pdf)                                     |  PDF   | 2020-06-04 |
+| QR Invoice Native |     2.1      | [sample-0020-codeblock-qrinvoice-native.jpg](invoices/sample-0020-codeblock-qrinvoice-native.jpg)                                     |  JPEG  | 2020-06-04 |
 
 ## QR-Bill Validator
 
