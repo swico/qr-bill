@@ -2,6 +2,11 @@
 
 Supporting material for the introduction of the [QR bill](https://www.swiss-qr-invoice.org) in Switzerland.
 
+## Issues and discussions
+
+Swico is collecting issues about its [validator](https://www.swiss-qr-invoice.org/validator) and the QR bill
+implementation guidelines on this **[dedicated issues page](https://github.com/swico/www.swiss-qr-invoice.org/issues)**.
+
 ## Sample invoices
 
 | ERP               |   Version    | Sample file                                                                                                                           | Format | Date added |
