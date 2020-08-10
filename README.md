@@ -112,4 +112,5 @@ Spaces in the _structured creditor reference_ must be removed when stored in the
   [SwissQRBill Java project](https://github.com/manuelbl/SwissQRBill) and
   [SwissQRBill .NET project](https://github.com/manuelbl/SwissQRBill.NET).  
   They can be [tested online here](https://www.codecrete.net/qrbill/bill)...
-
+* Epsitec SA provides an interactive website to produce QR bills, and also to test their payment:  
+  [www.qr-bill.online](https://www.qr-bill.online)
